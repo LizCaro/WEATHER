@@ -1,0 +1,93 @@
+:root {
+    --primary-color: #ec930d;
+    --secondary-color: #11698e;
+}
+
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 0vh; */
+}
+.card {
+    width: 500px;
+    height:550px;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.18)!important;
+    /* padding: 10px; */
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.header__box {
+    background-position: center center;
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    text-transform: capitalize;
+    color:#9a0dec;
+}
+
+.Houre{
+    padding-top:80px; 
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:200px;
+    font-size: 80px;
+    font-weight: bold;
+    color:#5f08ec;
+}
+
+.Cloud{
+    display: flex;
+    justify-content: space-between;
+    color:#ec0de1;
+    font-weight: bold;
+}
+
+.status__site {
+    color: var(--primary-color);
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+    text-align: left;
+}
+/* .status__site div {
+    margin-right: 1.3rem;
+}
+.status__site p {
+    color: var(--secondary-color);
+    border: none;
+} */
+
+.icon__site {
+    border-right: 2px double rgba(0, 0, 0, 0.212);
+    height: 100px;
+    margin-left: 2rem;
+    padding-right: 20px;
+}
+.icon__site img {
+    width: 60px;
+}
+
+.button{
+    display: flex;
+    justify-content: flex-end;
+    padding-top:50px 
+}
+.convert__formule {
+ 
+    bottom: 1rem;
+    right: 1rem;
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+    color: var(--primary-color);
+    background-color: #5f08ec;
+    font-weight: bold;
+    cursor: pointer;
+}
+.convert__formule:focus {
+    outline: none;
+    border: 1px solid var(--primary-color);
+}
